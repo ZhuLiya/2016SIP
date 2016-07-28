@@ -2,38 +2,55 @@
 <html>
 	<head>
 		<title>2016 Girls Who Code Adobe-Liya Zhu</title>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nemoy" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/grundschrift" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/proza-libre" type="text/css"/>
+		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/some-time-later" type="text/css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<script src="scripts.js"></script>	
 	</head>
 	<body>
-		
-		<div id="background"></div>
 
 		<div class="topleft"></div>
 		<div class="topright"></div>
 		<div class="bottomleft"></div>
 		<div class="bottomright"></div>
-		<div class="back">
-			<a href="">back to top</a>
+		<div class="back" id="backshape">
+			<a href="#backtotop"><p class="linkword">back to top</p></a>
 		</div>
-		<div class="top">
+		<div class="top" id="backtotop">
+
 			<div class="title1">
-				<!-- <h1>2016-</h1> -->
-				<!-- <h1>2016 Girls Who Code</h1> -->
 				<h1>Liya Zhu</h1>
 			</div>
+
+			<div id="facebook">
+				<a href="https://www.facebook.com/profile.php?id=100009346356697"><i class="fa fa-facebook-square" style="font-size:36px;color:#3b5998"></i></a>
+			</div>
+
+			<div id="linkedin">
+				<a href="https://www.linkedin.com/in/liya-z-94a7aa121?authType=NAME_SEARCH&authToken=c4mk&locale=en_US&srchid=5065991141469741391771&srchindex=1&srchtotal=107&trk=vsrp_people_res_photo&trkInfo=VSRPsearchId%3A5065991141469741391771%2CVSRPtargetId%3A506599114%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH"><i class="fa fa-linkedin-square" style="font-size:36px;color:#0077b5"></i></a>
+			</div>
+
+			<div id="weibo">
+				<a href="http://weibo.com/5118255881/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1"><img src="image\weibo.png"></img></a>
+			</div>
+			
 			<div class="logo">
-				<img src="C:\Users\gwcp\Desktop\2016SIPAdobe\week5\mywebsite\image\logo.png"></img>
+				<img src="image\logo.png"></img>
 			</div>
 		</div>
 		<div class="links">
 			<div class="link">
-				<a href="">Introduction of Girls Who Code</a>
+				<a href="#introduction"><p class="linkword">Introduction of Girls Who Code</p></a>
 			</div>
 			<div class="btnlink">
 				<div id="myBtn" class="dropbtn">
 					<div class="link">	
-					<a href="">About Me</a>
+					<a href="#about"><p class="linkword">About Me</p></a>
 						<div id="myDropdown" class="dropdown-content">
 						    <a href="">lol</a>
 						    <a href="">just kidding</a>
@@ -53,7 +70,7 @@
 		</script>
 
 			<div class="link">
-			<a href=#>Projects I've Done</a>
+			<a href="#project"><p class="linkword">Projects I've Done</p></a>
 			</div>
 		</div>
 		<div class="text">
@@ -62,31 +79,32 @@
 				<p>Hi, I'm Liya.  
 				</p>
 			<div class="intro">
-				<h2>-Introduction of Girls Who Code-</h2>			
+				<h2 id="introduction">-Introduction of Girls Who Code-</h2>			
 				<div>
-					<p>"Girls Who Code" is a national non-profit organization dedicated to closing the gender gap in technology.
-					</p>
-					<p>Tech jobs are among the fastest growing in the country, yet girls are being left behind. While interest in computer science ebbs over time, the biggest drop off happens between the ages of 13-17.</p>
-					<p>hkeidfhs</p>
+					<img src="image\girlswhocode.jpg"></img>
+					<p>"Girls Who Code" is a national non-profit organization dedicated to closing the gender gap in technology.</p>
 				</div>
-			</div>
+				<div>	
+					<p>Tech jobs are among the fastest growing in the country, yet girls are being left behind. While interest in computer science ebbs over time, the biggest drop off happens between the ages of 13-17.</p>
+				</div>
+			</div class="photos">
 			<div class="photo">
-				<h2>-About Me-</h2>
+				<h2 id="about">-About Me-</h2>
 				<div id="outer">
-				<img src="C:\Users\gwcp\Desktop\2016SIPAdobe\week5\mywebsite\image\me.jpg"></img>
+				<img src="image\me.jpg"></img>
 			</div>
 			<div class="photo">
 				<h4>Yoka</h4>
-				<img src="C:\Users\gwcp\Desktop\2016SIPAdobe\week5\mywebsite\image\yoka.jpg"></img>
-			</div>
-			<div class="photo">
+				<img src="image\yoka.jpg"></img>
 				<h4>Kirin</h4>
-				<img src="C:\Users\gwcp\Desktop\2016SIPAdobe\week5\mywebsite\image\kirin.jpg"></img>
+				<img src="image\kirin.jpg"></img>
 			</div>
 			<div>
-				<h2>-Projects I've Done-</h2>
+				<h2 id="project">-Projects I've Done-</h2>
 			</div>
 		</div>
+
+	<div id="background"></div>
 	</body>
 </html>
 
